@@ -1,0 +1,4 @@
+*.pt
+*.venv
+*Images
+logs.txt

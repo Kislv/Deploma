@@ -1,0 +1,19 @@
+syntax = "proto3";
+option go_package = "./grpc/";
+
+service CountPores {
+  rpc Count (CountPoresRequest) returns (CountPoresResponse) {}
+}
+
+message CountPoresRequest {
+  string extenstion = 1;
+  int32 height = 2;
+  int32 width = 3;
+  bytes image = 4;
+  int32 density = 5;
+}
+
+message CountPoresResponse {
+  float area = 1;
+  float diameter = 2;
+}
