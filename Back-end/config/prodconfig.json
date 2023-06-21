@@ -1,0 +1,5 @@
+{
+    "database": "local",
+    "feed limit": 12,
+    "genres limit": 30
+}
