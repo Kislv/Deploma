@@ -1,4 +1,8 @@
 *.pt
 *.venv
 *Images
+*.png
+*.jpg
+*.jpeg
 logs.txt
+*__pycache__*
